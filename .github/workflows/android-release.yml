@@ -74,11 +74,21 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create v1.1.1 \
-            release/Sinclair-Tracker-v1.1.1.apk \
-            release/Sinclair-Tracker-v1.1.1.apk.sha256 \
-            --title "Sinclair Tracker v1.1.1" \
-            --notes-file RELEASE_NOTES_v1.1.1.md
+          if gh release view v1.1.1 >/dev/null 2>&1; then
+            gh release upload v1.1.1 \
+              release/Sinclair-Tracker-v1.1.1.apk \
+              release/Sinclair-Tracker-v1.1.1.apk.sha256 \
+              --clobber
+            gh release edit v1.1.1 \
+              --title "Sinclair Tracker v1.1.1" \
+              --notes-file RELEASE_NOTES_v1.1.1.md
+          else
+            gh release create v1.1.1 \
+              release/Sinclair-Tracker-v1.1.1.apk \
+              release/Sinclair-Tracker-v1.1.1.apk.sha256 \
+              --title "Sinclair Tracker v1.1.1" \
+              --notes-file RELEASE_NOTES_v1.1.1.md
+          fi
 
       - name: Remove signing material
         if: always()

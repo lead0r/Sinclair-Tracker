@@ -1,6 +1,6 @@
 # Prüfprotokoll
 
-Stand: 5. September 2026
+Stand: 12. Oktober 2026
 
 ## Quellcode
 
@@ -33,13 +33,12 @@ Die Tests prüfen:
 ## Android-Release
 
 - Build: Flutter 3.44.9 stable / Dart 3.12.2 / Temurin JDK 17.0.20.1
-- APK: `Sinclair-Tracker-1.1.0.apk` (58.351.829 Byte)
-- SHA-256: `98f3b878fed69e5963ab574a31e084bdce5377a4c5374b94a10ee157e6d1c130`
-- Paket: `app.sinclairtracker.unofficial`, Version 1.1.0 (Code 3)
+- APK: `Sinclair-Tracker-v1.1.1.apk` (58.253.525 Byte)
+- SHA-256: `75b620481cbc0fb454be3d7d8863c135d830e5758779b8f5e7ef2b83654c7902`
+- Paket: `app.sinclairtracker.unofficial`, Version 1.1.1 (Code 4)
 - App-Name: „Sinclair Tracker“
 - Mindest-SDK: 24 (Android 7.0), Ziel-/Compile-SDK: 36
 - Architekturen: arm64-v8a, armeabi-v7a und x86_64
-- `zipalign -c -v 4`: erfolgreich
 - `apksigner verify --verbose --print-certs`: APK-v2-Signatur gültig
 - `unzip -t`: keine Fehler im APK-Archiv
 - Zertifikat SHA-256:
@@ -50,3 +49,7 @@ projektspezifischen Release-Zertifikat signiert. Sie ist für Sideloading
 geeignet. Version 1.0.1 verwendete noch einen verlorenen Debugschlüssel und muss
 daher nach einem JSON-Export einmalig deinstalliert werden. Ab Version 1.1.0
 sind direkte Updates mit diesem Release-Zertifikat möglich.
+
+Der reproduzierbare GitHub-Actions-Lauf `Android release #1` hat Analyse, Tests,
+Build, Archiv- und Signaturprüfung erfolgreich abgeschlossen und die APK mit
+Prüfsumme als GitHub Release `v1.1.1` veröffentlicht.

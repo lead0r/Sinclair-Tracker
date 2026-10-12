@@ -71,8 +71,10 @@ Release-Schlüssel verwendet werden.
 Die ab Version 1.1.0 verwendete Signatur und die einmalige Migration von 1.0.1
 sind in [SIGNING_CONTINUITY.md](SIGNING_CONTINUITY.md) dokumentiert.
 
-Die geprüfte APK 1.1.0 unterstützt Android 7.0/API 24 und neuer. Sie enthält
-arm64-v8a, armeabi-v7a und x86_64 und zielt auf Android API 36.
+Die geprüfte APK 1.1.1 unterstützt Android 7.0/API 24 und neuer. Sie enthält
+arm64-v8a, armeabi-v7a und x86_64 und zielt auf Android API 36. APK und
+SHA-256-Prüfsumme stehen im
+[GitHub Release v1.1.1](https://github.com/lead0r/Sinclair-Tracker/releases/tag/v1.1.1).
 
 ## Rechtehinweis
 

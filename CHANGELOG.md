@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.1 – 2026-09-05
+## 1.1.1 – 2026-10-12
 
 - Sortierung, Gehört-Filter, Mindestbewertung, Suchtext und aktive Reihe werden
   dauerhaft gespeichert und beim nächsten App-Start wiederhergestellt
