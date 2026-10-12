@@ -1,0 +1,3 @@
+Automatische Episodenprüfung mit Offline-Speicherung, manuelle Aktualisierung,
+sechs Akzentfarben und ein neues Kreuzsymbol. Hörstatus, Bewertungen und
+Notizen bleiben dauerhaft lokal gespeichert.

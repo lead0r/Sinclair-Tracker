@@ -1,0 +1,3 @@
+Automatic episode checks with offline storage, manual refresh, six accent
+colours, and a new cross symbol. Listening state, ratings, and notes remain
+stored locally.

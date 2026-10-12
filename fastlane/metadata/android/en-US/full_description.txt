@@ -1,0 +1,13 @@
+Sinclair Tracker is an unofficial open-source companion for German John Sinclair audio dramas.
+
+Features:
+• 390 productions across Edition 2000, Classics, Specials, Tonstudio Braun and SINCLAIR
+• daily checks for new episodes on the official series pages
+• six selectable accent colours and a custom cross symbol
+• listened status, ratings and personal notes
+• search, filters, statistics and a random picker
+• JSON backup and restore
+• optional persistent offline covers
+• links to official products and streaming providers
+
+Unofficial fan project with no affiliation to Bastei Lübbe, Lübbe Audio or Jason Dark. Trademarks, covers and text belong to their respective owners.

@@ -1,0 +1,13 @@
+Sinclair Tracker ist eine inoffizielle Open-Source-Begleit-App für John-Sinclair-Hörspiele.
+
+Funktionen:
+• 390 Hörspiele aus Edition 2000, Classics, Sondereditionen, Tonstudio Braun und SINCLAIR
+• täglicher Abgleich neuer Folgen über die offiziellen Serienseiten
+• sechs wählbare Akzentfarben und eigenes Kreuzsymbol
+• gehört/ungehört, Bewertungen und persönliche Notizen
+• Suche, Filter, Statistik und Zufallsfolge
+• JSON-Backup und Wiederherstellung
+• optional dauerhaft gespeicherte Offline-Cover
+• Links zum offiziellen Produkt und zu Streaming-Anbietern
+
+Inoffizielles Fanprojekt ohne Verbindung zu Bastei Lübbe, Lübbe Audio oder Jason Dark. Marken, Cover und Texte gehören ihren jeweiligen Rechteinhabern.
